@@ -30,7 +30,7 @@ import table from './Assets/table.webp';
 function App() {
   return (
     <div className="container relative w-screen h-screen overflow-x-hidden z-1 text-color6">
-      <div className="App container bg-fixed bg-clip-border bg-center bg-cover bg-no-repeat relative w-screen flex flex-col sm:space-y-20 py-20" style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
+      <div className="App container bg-fixed bg-clip-border bg-center bg-cover bg-no-repeat relative w-screen flex flex-col sm:space-y-20 " style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
         <div className="flex-1 container w-screen min-h-screen relative bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-cover" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
           <div className="container w-screen h-screen relative text-4xl text-left text-color5 mx-10 py-44 sm:mx-20 lg:mx-36 xl:mx-60 lg:text-5xl lg:py-64 2xl:text-7xl 2xl:py-90">
             <h1 className="gradientText w-5/6 sm:w-2/6">
