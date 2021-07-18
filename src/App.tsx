@@ -38,9 +38,11 @@ function App() {
   //   to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 2000 }, delay: 2000,
   // });
   return (
-    <div className="relative w-screen h-screen overflow-x-hidden z-1 text-color6">
-      <div className="App container bg-fixed  bg-center bg-cover bg-no-repeat relative w-screen flex flex-col sm:space-y-20 " style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
-        <div className="flex-1 container w-screen min-h-screen relative bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-cover" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
+    <div className="fixed w-screen  h-screen overflow-x-hidden text-color6 m-0 p-0">
+      {/* sm:space-y-20 h-auto */}
+      {/* min-h-screen */}
+      <div className="container bg-fixed  bg-center bg-cover bg-no-repeat relative w-screen flex flex-col " style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
+        <div className="flex-1 container w-screen relative bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-cover overflow-hidden" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
           <div className="container w-screen h-screen relative text-4xl text-left text-color5 mx-10 py-44 sm:mx-20 lg:mx-36 xl:mx-60 lg:text-5xl lg:py-64 2xl:text-7xl 2xl:py-90">
             <animated.div style={fadeIn}>
               <h1 className="gradientText w-5/6 sm:w-2/6">
@@ -124,7 +126,7 @@ function App() {
                 role="button"
                 href="https://docs.google.com/document/d/1abT3hR8m6V9T8hYSOmGT1ZMALD3EAwUi3bXzve-Yea4/edit?usp=sharing"
                 aria-label="Tech Daddy"
-                className="w-6/12 lg:max-w-3/12 py-2 rounded-3xl"
+                className="w-6/12 lg:max-w-3/12 py-2 rounded-3xl align-middle"
                 style={{
                   background: 'linear-gradient(90deg, rgba(217,145,145,1) 0%, rgba(223,169,140,1) 35%, rgba(179,185,181,1) 65%, rgba(141,189,215,1) 100%)',
                 }}
@@ -134,9 +136,9 @@ function App() {
               </a>
 
               <div className="flex-1 grid grid-cols-3 grid-row-1 lg:px-5 items-center content-center justify-items-center justify-center gap-y-4 mt-4">
-                <a href="https://www.linkedin.com/in/nathaniel-chai-48aab4135/" role="button" aria-label="Tech Daddy"><img src={linkedin} alt="" className="w-9/12 md:w-5/12 lg:w-4/12  m-auto" /></a>
-                <a href="https://github.com/sunny7dusk" role="button" aria-label="Tech Daddy"><img src={github} alt="" className="w-9/12 lg:w-4/12 p-0 m-auto md:w-5/12" /></a>
-                <a href="https://www.instagram.com/dark7storm/" role="button" aria-label="Tech Daddy"><img src={ig} alt="" className="w-9/12 lg:w-4/12 m-auto md:w-5/12" /></a>
+                <a href="https://www.linkedin.com/in/nathaniel-chai-48aab4135/" role="button" aria-label="Tech Daddy"><img src={linkedin} alt="" className="w-9/12 md:w-5/12 lg:w-4/12  mx-auto" /></a>
+                <a href="https://github.com/sunny7dusk" role="button" aria-label="Tech Daddy"><img src={github} alt="" className="w-9/12 lg:w-4/12 p-0 mx-auto md:w-5/12" /></a>
+                <a href="https://www.instagram.com/dark7storm/" role="button" aria-label="Tech Daddy"><img src={ig} alt="" className="w-9/12 lg:w-4/12 mx-auto md:w-5/12" /></a>
               </div>
             </div>
           </div>
