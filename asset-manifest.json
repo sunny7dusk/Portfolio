@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PortfolioV2/static/css/main.3753a41b.chunk.css",
-    "main.js": "/PortfolioV2/static/js/main.712ab56a.chunk.js",
-    "main.js.map": "/PortfolioV2/static/js/main.712ab56a.chunk.js.map",
-    "runtime-main.js": "/PortfolioV2/static/js/runtime-main.ecc2396f.js",
-    "runtime-main.js.map": "/PortfolioV2/static/js/runtime-main.ecc2396f.js.map",
-    "static/js/2.e3bbe361.chunk.js": "/PortfolioV2/static/js/2.e3bbe361.chunk.js",
-    "static/js/2.e3bbe361.chunk.js.map": "/PortfolioV2/static/js/2.e3bbe361.chunk.js.map",
-    "static/js/3.7a336af6.chunk.js": "/PortfolioV2/static/js/3.7a336af6.chunk.js",
-    "static/js/3.7a336af6.chunk.js.map": "/PortfolioV2/static/js/3.7a336af6.chunk.js.map",
+    "main.js": "/PortfolioV2/static/js/main.f5366fb0.chunk.js",
+    "main.js.map": "/PortfolioV2/static/js/main.f5366fb0.chunk.js.map",
+    "runtime-main.js": "/PortfolioV2/static/js/runtime-main.e5c04191.js",
+    "runtime-main.js.map": "/PortfolioV2/static/js/runtime-main.e5c04191.js.map",
+    "static/js/2.29988f1d.chunk.js": "/PortfolioV2/static/js/2.29988f1d.chunk.js",
+    "static/js/2.29988f1d.chunk.js.map": "/PortfolioV2/static/js/2.29988f1d.chunk.js.map",
+    "static/js/3.9cdbd8c5.chunk.js": "/PortfolioV2/static/js/3.9cdbd8c5.chunk.js",
+    "static/js/3.9cdbd8c5.chunk.js.map": "/PortfolioV2/static/js/3.9cdbd8c5.chunk.js.map",
     "index.html": "/PortfolioV2/index.html",
     "static/css/main.3753a41b.chunk.css.map": "/PortfolioV2/static/css/main.3753a41b.chunk.css.map",
-    "static/js/2.e3bbe361.chunk.js.LICENSE.txt": "/PortfolioV2/static/js/2.e3bbe361.chunk.js.LICENSE.txt",
+    "static/js/2.29988f1d.chunk.js.LICENSE.txt": "/PortfolioV2/static/js/2.29988f1d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/PortfolioV2/static/media/Disket-Mono-Regular.7377dd2a.ttf",
     "static/media/New Project.f381a182.webp": "/PortfolioV2/static/media/New Project.f381a182.webp",
     "static/media/css.08625cc5.webp": "/PortfolioV2/static/media/css.08625cc5.webp",
@@ -37,9 +37,9 @@
     "static/media/td.380e2d34.webp": "/PortfolioV2/static/media/td.380e2d34.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.ecc2396f.js",
-    "static/js/2.e3bbe361.chunk.js",
+    "static/js/runtime-main.e5c04191.js",
+    "static/js/2.29988f1d.chunk.js",
     "static/css/main.3753a41b.chunk.css",
-    "static/js/main.712ab56a.chunk.js"
+    "static/js/main.f5366fb0.chunk.js"
   ]
 }
