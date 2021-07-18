@@ -29,8 +29,8 @@ import table from './Assets/table.webp';
 
 function App() {
   return (
-    <div className="container relative w-screen h-screen overflow-x-hidden z-1 text-color5">
-      <div className="App container mx-auto bg-fixed bg-clip-border bg-center bg-cover bg-no-repeat relative w-screen flex flex-col sm:space-y-20 pb-10" style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
+    <div className="container relative w-screen h-screen overflow-x-hidden z-1 text-color6">
+      <div className="App container bg-fixed bg-clip-border bg-center bg-cover bg-no-repeat relative w-screen flex flex-col sm:space-y-20 py-20" style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
         <div className="flex-1 container w-screen min-h-screen relative bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-cover" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
           <div className="container w-screen h-screen relative text-4xl text-left text-color5 mx-10 py-44 sm:mx-20 lg:mx-36 xl:mx-60 lg:text-5xl lg:py-64 2xl:text-7xl 2xl:py-90">
             <h1 className="gradientText w-5/6 sm:w-2/6">
@@ -47,13 +47,13 @@ function App() {
           {/* <div className="flex-1  container w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative cardGlass" style={{ background: 'rgba(255, 255, 255, 0.25)', boxShadow: 'rgba(0, 0, 0, 0.25)' }}> */}
           <div className="flex flex-col relative items-center content-center mix-blend-normal">
             <img src={meCartoon} id="meSize" alt="me" className="rounded-2xl w-6/12 flex-1 mb-2 sm:w-3/12 lg:w-2/12 " style={{ isolation: 'isolate' }} />
-            <h1 className="text-xl flex-1 lg:text-5xl">Nathaniel Chai Zhuo En</h1>
-            <h1 className="text-lg flex-1 lg:text-4xl">蔡卓恩</h1>
+            <h1 className="text-2xl flex-1 lg:text-5xl">Nathaniel Chai Zhuo En</h1>
+            <h1 className="text-xl flex-1 lg:text-4xl">蔡卓恩</h1>
           </div>
         </div>
         <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
           <div className="flex flex-col items-center content-center">
-            <h1 className="text-sm flex-1 lg:text-2xl">
+            <h1 className="text-base flex-1 lg:text-2xl">
               Growing up in 🇲🇾, I have always been fascinated by the
               technological side of the world. Driven by the desire to learn,
               I constantly immerse myself in new and upcoming programming technologies.
@@ -64,7 +64,7 @@ function App() {
         </div>
         <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
           <div className="flex flex-col items-center content-center">
-            <h1 className="text-sm flex-1 mb-4 lg:text-2xl">
+            <h1 className="text-base flex-1 mb-4 lg:text-2xl">
               The list of programming technologies I have under my belt is always expending 👨🏻‍💻
             </h1>
             <div className="grid grid-cols-5 grid-row-2 lg:px-5 items-center content-center justify-items-center gap-y-2">
@@ -83,7 +83,7 @@ function App() {
         </div>
         <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
           <div className="flex flex-col items-center content-center">
-            <h1 className="text-sm flex-1 mb-4 lg:text-2xl">
+            <h1 className="text-base flex-1 mb-4 lg:text-2xl">
               Here are some of my works 👇🏻
             </h1>
             <div className="flex flex-col items-center content-center justify-items-center gap-y-6">
