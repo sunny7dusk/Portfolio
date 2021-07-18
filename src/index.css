@@ -1,13 +1,72 @@
-body {
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "DisketBold";
+  src: local("DisketBold"), url("./fonts/Disket-Mono-Bold.ttf");
+  /* font-weight:bold; */
+}
+
+@font-face {
+  font-family: "Disket";
+  src: local("Disket"), url("./fonts/Disket-Mono-Regular.ttf");
+}
+@tailwind utilities;
+
+@layer utilities {
+  .gradientText {
+    background: #d99191;
+    background: -webkit-linear-gradient(
+      to right,
+      #d99191 0%,
+      #dfa98c 30%,
+      #b3b9b5 60%,
+      #8dbdd7 100%
+    );
+    background: -moz-linear-gradient(
+      to right,
+      #d99191 0%,
+      #dfa98c 30%,
+      #b3b9b5 60%,
+      #8dbdd7 100%
+    );
+    background: linear-gradient(
+      to right,
+      #d99191 0%,
+      #dfa98c 30%,
+      #b3b9b5 60%,
+      #8dbdd7 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* .cardGlass::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.25);
+    width: 100%;
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    mix-blend-mode: overlay;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } */
+}
+
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
