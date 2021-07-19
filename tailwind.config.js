@@ -9,6 +9,7 @@ module.exports = {
       },
       backgroundPosition: {
         heroMobilePos: "65% 40%",
+        cardPos: "60% 20%",
       },
       backgroundSize: {
         heroMobileSize: "100vh",

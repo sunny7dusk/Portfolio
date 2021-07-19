@@ -23,6 +23,8 @@ import nodejs from './Assets/icons8-nodejs-96.webp';
 import td from './Assets/td.webp';
 import ig from './Assets/instagram.webp';
 import linkedin from './Assets/linkedin.webp';
+import tailwind from './Assets/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg';
+import bootstrap from './Assets/bootstrap-logo.svg';
 import github from './Assets/github.webp';
 import spotify from './Assets/New Project.webp';
 import './fonts/Disket-Mono-Bold.ttf';
@@ -38,14 +40,14 @@ function App() {
   //   to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 2000 }, delay: 2000,
   // });
   return (
-    <div className="fixed w-screen  h-screen overflow-x-hidden text-color6 m-0 p-0">
+    <div className="box-content  w-full  h-full overflow-hidden text-color6 m-0 p-0 fixed">
       {/* sm:space-y-20 h-auto */}
       {/* min-h-screen */}
-      <div className="container bg-fixed  bg-center bg-cover bg-no-repeat relative w-screen flex flex-col " style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
-        <div className="flex-1 container w-screen relative bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-cover overflow-hidden" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
-          <div className="container w-screen h-screen relative text-4xl text-left text-color5 mx-10 py-44 sm:mx-20 lg:mx-36 xl:mx-60 lg:text-5xl lg:py-64 2xl:text-7xl 2xl:py-90">
+      <div className="overflow-y-scroll overflow-x-hidden bg-fixed  relative bg-center bg-cover bg-no-repeat w-full flex flex-col  h-full pb-20 m-0 pt-40 sm:pt-0" style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
+        <div className="flex relative w-full bg-heroMobilePos bg-heroMobileSize  bg-no-repeat sm:bg-contain justify-center justify-items-center content-center items-center h-full sm:pt-0" style={{ backgroundImage: `url(${bokeh}),url(${me}),url(${table})` }}>
+          <div className=" flex-1 w-screen h-screen relative text-4xl text-left text-color5 mx-10 py-44 sm:mx-20 lg:mx-36 xl:mx-60 lg:text-5xl lg:py-64 2xl:text-7xl 2xl:py-90">
             <animated.div style={fadeIn}>
-              <h1 className="gradientText w-5/6 sm:w-2/6">
+              <h1 className="gradientText w-6/6 sm:w-3/6">
                 Full Stack
                 Developer
               </h1>
@@ -57,66 +59,67 @@ function App() {
             </animated.div>
           </div>
         </div>
-        {/* mix-blend-overlay */}
-        <Bounce top>
-          <div className="flex-1  container w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative lg:max-w-4xl" style={{ background: 'inherit', boxShadow: 'rgba(0, 0, 0, 0.25)' }}>
-            {/* <div className="flex-1  container w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative cardGlass" style={{ background: 'rgba(255, 255, 255, 0.25)', boxShadow: 'rgba(0, 0, 0, 0.25)' }}> */}
-            <div className="flex flex-col relative items-center content-center mix-blend-normal">
-              <img src={meCartoon} id="meSize" alt="me" className="rounded-2xl w-6/12 flex-1 mb-2 sm:w-3/12 lg:w-2/12 " style={{ isolation: 'isolate' }} />
-              <h1 className="text-2xl flex-1 lg:text-5xl">Nathaniel Chai Zhuo En</h1>
-              <h1 className="text-xl flex-1 lg:text-4xl">蔡卓恩</h1>
-            </div>
-          </div>
-        </Bounce>
-        <Bounce right>
-          <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
-            <div className="flex flex-col items-center content-center">
-              <h1 className="text-base flex-1 lg:text-2xl">
-                Growing up in 🇲🇾, I have always been fascinated by the
-                technological side of the world. Driven by the desire to learn,
-                I constantly immerse myself in new and upcoming programming technologies.
-                This is what led me here today, as a programmer studying Computer Science at
-                Virginia Tech.
-              </h1>
-            </div>
-          </div>
-        </Bounce>
-        <Bounce left>
-          <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
-            <div className="flex flex-col items-center content-center">
-              <h1 className="text-base flex-1 mb-4 lg:text-2xl">
-                The list of programming technologies I have under my belt is always expending 👨🏻‍💻
-              </h1>
-              <div className="grid grid-cols-5 grid-row-2 lg:px-5 items-center content-center justify-items-center gap-y-2">
-                <img src={html} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={css} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={firebase} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={flutter} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={python} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={java} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={js} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={c} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={nodejs} alt="" className="w-9/12 lg:w-6/12" />
-                <img src={react} alt="" className="w-9/12 lg:w-6/12" />
+        <div className="w-screen h-auto mt-20 p-0 flex flex-col flex flex-col text-center justify-center justify-items-center content-center items-center">
+          <Bounce top>
+            <div className="flex-1 w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative lg:max-w-4xl justify-center justify-items-center content-center items-center  bg-no-repeat sm:bg-contain" style={{ boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+              {/* <div className="flex-1  container w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative cardGlass" style={{ background: 'rgba(255, 255, 255, 0.25)', boxShadow: 'rgba(0, 0, 0, 0.25)' }}> */}
+              <div className="flex flex-col relative items-center content-center mix-blend-overlay justify-center justify-items-center content-center items-center">
+                <img src={meCartoon} id="meSize" alt="me" className="rounded-2xl w-6/12 flex-1 mb-2 sm:w-3/12 lg:w-2/12 " style={{ isolation: 'isolate' }} />
+                <h1 className="text-2xl flex-1 lg:text-5xl ">Nathaniel Chai Zhuo En</h1>
+                <h1 className="text-xl flex-1 lg:text-4xl">蔡卓恩</h1>
               </div>
             </div>
-          </div>
-        </Bounce>
-        <Bounce right>
-          <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
-            <div className="flex flex-col items-center content-center">
-              <h1 className="text-base flex-1 mb-4 lg:text-2xl">
-                Here are some of my works 👇🏻
-              </h1>
-              <div className="flex flex-col items-center content-center justify-items-center gap-y-6">
-                <a href="https://sites.google.com/vt.edu/dscvt" role="button" aria-label="Tech Daddy"><img src={td} alt="" className="w-full  flex-1 rounded-3xl" /></a>
-                <a href="https://sunny7dusk.github.io/React-Spotify-Player/" role="button" aria-label="Tech Daddy"><img src={spotify} alt="" className="w-full  flex-1 rounded-3xl" /></a>
+          </Bounce>
+          <Bounce right>
+            <div className="flex-1   relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+              <div className="flex flex-col items-center content-center">
+                <h1 className="text-base flex-1 lg:text-2xl">
+                  Growing up in 🇲🇾, I have always been fascinated by the
+                  technological side of the world. Driven by the desire to learn,
+                  I constantly immerse myself in new and upcoming programming technologies.
+                  This is what led me here today, as a programmer studying Computer Science at
+                  Virginia Tech.
+                </h1>
               </div>
             </div>
-          </div>
-        </Bounce>
-        <Bounce bottom>
-          <div className="flex-1  container  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba( 0, 0, 0, 0.37 )' }}>
+          </Bounce>
+          <Bounce left>
+            <div className="flex-1  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+              <div className="flex flex-col items-center content-center">
+                <h1 className="text-base flex-1 mb-4 lg:text-2xl">
+                  The list of programming technologies I have under my belt is always expending 👨🏻‍💻
+                </h1>
+                <div className="grid grid-cols-5 grid-row-3 lg:px-5 items-center content-center justify-items-center gap-y-2">
+                  <img src={html} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={css} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={firebase} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={flutter} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={python} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={java} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={js} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={c} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={nodejs} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={react} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={bootstrap} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={tailwind} alt="" className="w-9/12 lg:w-6/12" />
+                </div>
+              </div>
+            </div>
+          </Bounce>
+          <Bounce right>
+            <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+              <div className="flex flex-col items-center content-center">
+                <h1 className="text-base flex-1 mb-4 lg:text-2xl">
+                  Here are some of my works 👇🏻
+                </h1>
+                <div className="flex flex-col items-center content-center justify-items-center gap-y-6">
+                  <a href="https://sites.google.com/vt.edu/dscvt" role="button" aria-label="Tech Daddy"><img src={td} alt="" className="w-full  flex-1 rounded-3xl" /></a>
+                  <a href="https://sunny7dusk.github.io/React-Spotify-Player/" role="button" aria-label="Tech Daddy"><img src={spotify} alt="" className="w-full  flex-1 rounded-3xl" /></a>
+                </div>
+              </div>
+            </div>
+          </Bounce>
+          <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
             <div className="flex flex-col items-center content-center">
               <h1 className="text-sm flex-1 mb-4 lg:text-2xl">
                 Interested in working together? Contact me! 🤙🏻
@@ -142,8 +145,9 @@ function App() {
               </div>
             </div>
           </div>
-        </Bounce>
+        </div>
       </div>
+      {/* mix-blend-overlay */}
     </div>
   );
 }
