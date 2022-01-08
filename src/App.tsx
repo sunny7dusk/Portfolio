@@ -30,6 +30,7 @@ import spotify from './Assets/New Project.webp';
 import './fonts/Disket-Mono-Bold.ttf';
 import './fonts/Disket-Mono-Regular.ttf';
 import table from './Assets/table.webp';
+import vue from './Assets/vue.png';
 
 function App() {
   const fadeIn = useSpring({ to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 1000 } });
@@ -102,6 +103,7 @@ function App() {
                   <img src={react} alt="" className="w-9/12 lg:w-6/12" />
                   <img src={bootstrap} alt="" className="w-9/12 lg:w-6/12" />
                   <img src={tailwind} alt="" className="w-9/12 lg:w-6/12" />
+                  <img src={vue} alt="" className="w-9/12 lg:w-6/12" />
                 </div>
               </div>
             </div>
