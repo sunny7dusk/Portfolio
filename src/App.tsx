@@ -129,7 +129,7 @@ function App() {
 
               <a
                 role="button"
-                href="https://docs.google.com/document/d/1abT3hR8m6V9T8hYSOmGT1ZMALD3EAwUi3bXzve-Yea4/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1Q8aYVYHCu2syZGTNGaEGt2oJ23o3DgPI/view?usp=sharing"
                 aria-label="Tech Daddy"
                 className="w-6/12 lg:max-w-3/12 py-2 rounded-3xl align-middle"
                 style={{
