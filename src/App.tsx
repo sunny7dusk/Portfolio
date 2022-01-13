@@ -31,6 +31,9 @@ import './fonts/Disket-Mono-Bold.ttf';
 import './fonts/Disket-Mono-Regular.ttf';
 import table from './Assets/table.webp';
 import vue from './Assets/vue.png';
+import githubGame from './Assets/githubGame.png';
+import rocketry from './Assets/rocketry.png';
+import codeQuiz2 from './Assets/codeQuiz2.png';
 
 function App() {
   const fadeIn = useSpring({ to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 1000 } });
@@ -41,7 +44,7 @@ function App() {
   //   to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 2000 }, delay: 2000,
   // });
   return (
-    <div className="box-content  w-full  h-full overflow-hidden text-color6 m-0 p-0 fixed">
+    <div className="box-content  w-full  h-full overflow-hidden text-color5 m-0 p-0 fixed text-center">
       {/* sm:space-y-20 h-auto */}
       {/* min-h-screen */}
       <div className="overflow-y-scroll overflow-x-hidden bg-fixed  relative bg-center bg-cover bg-no-repeat w-full flex flex-col  h-full pb-20 m-0 pt-40 sm:pt-0" style={{ backgroundImage: `url(${sun}), url(${bg}), url(${city})` }}>
@@ -60,11 +63,11 @@ function App() {
             </animated.div>
           </div>
         </div>
-        <div className="w-screen h-auto mt-20 p-0 flex flex-col flex flex-col text-center justify-center justify-items-center content-center items-center">
+        <div className="w-screen h-auto mt-20 p-0 flex flex-col ext-center justify-center justify-items-center content-center items-center">
           <Bounce top>
-            <div className="flex-1 w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative lg:max-w-4xl justify-center justify-items-center content-center items-center  bg-no-repeat sm:bg-contain" style={{ boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+            <div className="flex-1 w-9/12 rounded-3xl backdrop-blur-2xl  py-6 px-8 relative lg:max-w-4xl justify-center justify-items-center content-center items-center  bg-no-repeat sm:bg-contain" style={{ boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
               {/* <div className="flex-1  container w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 relative cardGlass" style={{ background: 'rgba(255, 255, 255, 0.25)', boxShadow: 'rgba(0, 0, 0, 0.25)' }}> */}
-              <div className="flex flex-col relative items-center content-center mix-blend-overlay justify-center justify-items-center content-center items-center">
+              <div className="flex flex-col relative items-center content-center  justify-center justify-items-center ">
                 <img src={meCartoon} id="meSize" alt="me" className="rounded-2xl w-6/12 flex-1 mb-2 sm:w-3/12 lg:w-2/12 " style={{ isolation: 'isolate' }} />
                 <h1 className="text-2xl flex-1 lg:text-5xl ">Nathaniel Chai Zhuo En</h1>
                 <h1 className="text-xl flex-1 lg:text-4xl">蔡卓恩</h1>
@@ -72,7 +75,7 @@ function App() {
             </div>
           </Bounce>
           <Bounce right>
-            <div className="flex-1   relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+            <div className="flex-1   relative w-9/12 rounded-3xl backdrop-blur-2xl  py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
               <div className="flex flex-col items-center content-center">
                 <h1 className="text-base flex-1 lg:text-2xl">
                   Growing up in 🇲🇾, I have always been fascinated by the
@@ -85,7 +88,7 @@ function App() {
             </div>
           </Bounce>
           <Bounce left>
-            <div className="flex-1  relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+            <div className="flex-1  relative w-9/12 rounded-3xl backdrop-blur-2xl  py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
               <div className="flex flex-col items-center content-center">
                 <h1 className="text-base flex-1 mb-4 lg:text-2xl">
                   The list of programming technologies I have under my belt is always expending 👨🏻‍💻
@@ -109,19 +112,22 @@ function App() {
             </div>
           </Bounce>
           <Bounce right>
-            <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+            <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl  py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
               <div className="flex flex-col items-center content-center">
                 <h1 className="text-base flex-1 mb-4 lg:text-2xl">
                   Here are some of my works 👇🏻
                 </h1>
                 <div className="flex flex-col items-center content-center justify-items-center gap-y-6">
-                  <a href="https://sites.google.com/vt.edu/dscvt" role="button" aria-label="Tech Daddy"><img src={td} alt="" className="w-full  flex-1 rounded-3xl" /></a>
-                  <a href="https://sunny7dusk.github.io/React-Spotify-Player/" role="button" aria-label="Tech Daddy"><img src={spotify} alt="" className="w-full  flex-1 rounded-3xl" /></a>
+                  <a href="https://sites.google.com/vt.edu/dscvt" role="button" aria-label="Tech Daddy"><img src={td} alt="tech daddy" className="w-full  flex-1 rounded-3xl" /></a>
+                  <a href="https://sunny7dusk.github.io/React-Spotify-Player/" role="button" aria-label="Tech Daddy"><img src={spotify} alt="react spotify player" className="w-full  flex-1 rounded-3xl" /></a>
+                  <a href="https://github.com/gdscvt/github-game" role="button" aria-label="Tech Daddy"><img src={githubGame} alt="github game" className="w-full  flex-1 rounded-3xl" /></a>
+                  <a href="https://github.com/sunny7dusk/rocketry-site" role="button" aria-label="Tech Daddy"><img src={rocketry} alt="rocketry" className="w-full  flex-1 rounded-3xl" /></a>
+                  <img src={codeQuiz2} alt="code quiz" className="w-1/2  flex-1 rounded-3xl" />
                 </div>
               </div>
             </div>
           </Bounce>
-          <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl mix-blend-overlay py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
+          <div className="flex-1 relative w-9/12 rounded-3xl backdrop-blur-2xl  py-6 px-8 my-16 lg:max-w-4xl" style={{ background: 'inherit', boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2)' }}>
             <div className="flex flex-col items-center content-center">
               <h1 className="text-sm flex-1 mb-4 lg:text-2xl">
                 Interested in working together? Contact me! 🤙🏻
