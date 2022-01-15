@@ -4,7 +4,6 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { Bounce, Tada } from 'react-reveal';
 import { Helmet } from 'react-helmet-async';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import bg from './Assets/dark7storm_assets_0004_room.webp';
 import city from './Assets/dark7storm_assets_0005_cityscape.webp';
@@ -45,9 +44,6 @@ function App() {
 
   return (
     <>
-      <Router>
-        <Route path="/" />
-      </Router>
       <Helmet>
         <title>Nathaniel Chai Zhuo En</title>
         <meta
