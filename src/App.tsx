@@ -4,6 +4,8 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { Bounce, Tada } from 'react-reveal';
 import { Helmet } from 'react-helmet-async';
+import { Routes, Route, Link } from 'react-router-dom';
+import buildSitemap from 'react-build-sitemap';
 import './App.css';
 import bg from './Assets/dark7storm_assets_0004_room.webp';
 import city from './Assets/dark7storm_assets_0005_cityscape.webp';
@@ -36,6 +38,8 @@ import githubGame from './Assets/githubGame.png';
 import rocketry from './Assets/rocketry.png';
 import codeQuiz2 from './Assets/codeQuiz2.png';
 
+buildSitemap('./App.tsx', '../public', 'https://sunny7dusk.github.io/Portfolio');
+
 function App() {
   const fadeIn = useSpring({ to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 1000 } });
   const fadeIn2 = useSpring({
@@ -46,6 +50,9 @@ function App() {
   // });
   return (
     <>
+      <Routes>
+        <Route path="/" />
+      </Routes>
       <Helmet>
         <title>Nathaniel Chai Zhuo En</title>
         <meta
