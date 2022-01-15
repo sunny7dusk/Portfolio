@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bc47ac20.chunk.css",
-    "main.js": "/Portfolio/static/js/main.3325d24f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.3325d24f.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.a60e379f.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a60e379f.js.map",
-    "static/js/2.61616ae0.chunk.js": "/Portfolio/static/js/2.61616ae0.chunk.js",
-    "static/js/2.61616ae0.chunk.js.map": "/Portfolio/static/js/2.61616ae0.chunk.js.map",
-    "static/js/3.0fed22e4.chunk.js": "/Portfolio/static/js/3.0fed22e4.chunk.js",
-    "static/js/3.0fed22e4.chunk.js.map": "/Portfolio/static/js/3.0fed22e4.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.2ae6a126.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2ae6a126.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e0db3123.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e0db3123.js.map",
+    "static/js/2.ec986c28.chunk.js": "/Portfolio/static/js/2.ec986c28.chunk.js",
+    "static/js/2.ec986c28.chunk.js.map": "/Portfolio/static/js/2.ec986c28.chunk.js.map",
+    "static/js/3.20a16402.chunk.js": "/Portfolio/static/js/3.20a16402.chunk.js",
+    "static/js/3.20a16402.chunk.js.map": "/Portfolio/static/js/3.20a16402.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.bc47ac20.chunk.css.map": "/Portfolio/static/css/main.bc47ac20.chunk.css.map",
-    "static/js/2.61616ae0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.61616ae0.chunk.js.LICENSE.txt",
+    "static/js/2.ec986c28.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ec986c28.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portfolio/static/media/Disket-Mono-Regular.7377dd2a.ttf",
     "static/media/New Project.f381a182.webp": "/Portfolio/static/media/New Project.f381a182.webp",
     "static/media/bootstrap-logo.b91717f3.svg": "/Portfolio/static/media/bootstrap-logo.b91717f3.svg",
@@ -42,9 +42,9 @@
     "static/media/td.380e2d34.webp": "/Portfolio/static/media/td.380e2d34.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.a60e379f.js",
-    "static/js/2.61616ae0.chunk.js",
+    "static/js/runtime-main.e0db3123.js",
+    "static/js/2.ec986c28.chunk.js",
     "static/css/main.bc47ac20.chunk.css",
-    "static/js/main.3325d24f.chunk.js"
+    "static/js/main.2ae6a126.chunk.js"
   ]
 }
