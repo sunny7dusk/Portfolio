@@ -42,9 +42,7 @@ function App() {
   const fadeIn2 = useSpring({
     to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 1000 }, delay: 1000,
   });
-  // const fadeIn3 = useSpring({
-  //   to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 2000 }, delay: 2000,
-  // });
+
   return (
     <>
       <Router>
