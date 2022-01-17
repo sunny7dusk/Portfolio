@@ -35,6 +35,7 @@ import vue from './Assets/vue.png';
 import githubGame from './Assets/githubGame.png';
 import rocketry from './Assets/rocketry.png';
 import codeQuiz2 from './Assets/codeQuiz2.png';
+import previewImg from './Assets/dark7storm_full.webp';
 
 function App() {
   const fadeIn = useSpring({ to: { opacity: '1' }, from: { opacity: '0' }, config: { duration: 1000 } });
@@ -51,6 +52,18 @@ function App() {
           content="Nathaniel Chai Zhuo En | Computer Science senior at Virginia Tech. Welcome to my portfolio! This is build with React."
         />
         <link rel="canonical" href="/Portfolio" />
+        <meta property="og:title" content="Nathaniel Chai Zhuo En | Portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sunny7dusk.github.io/Portfolio/" />
+        <meta property="og:image" content={previewImg} />
+        <meta name="twitter:title" content="Nathaniel Chai Zhuo En | Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Nathaniel Chai Zhuo En | Computer Science senior at Virginia Tech. Welcome to my portfolio! This is build with React."
+        />
+        <meta name="twitter:image" content={previewImg} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="image" content={previewImg} />
       </Helmet>
       <h1 className="hidden">Portfolio | Nathaniel Chai Zhuo En 👨‍💻</h1>
       <div className="box-content  w-full  h-full overflow-hidden text-color5 m-0 p-0 fixed text-center">
